@@ -24,17 +24,9 @@ launchControl.onmidimessage = (e) => {
 };
 ```
 
-## Matrix
+## Data Matrix
 
-```
-col      0    1    2    3    4    5    6    7   / row
-       +----+----+----+----+----+----+----+----+
-knob1  | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |   0
-knob2  | ○ | ○ | ○ | ○ | ○ | ○ | ○ | ○ |   1
-pad    | □ | □ | □ | □ | □ | □ | □ | □ |   2
-cursor | ↑ | ↓ | ← | → |    |    |    |    |   3
-       +----+----+----+----+----+----+----+----+
-```
+![data-matrix](data-matrix.png)
 
 ## License
 
