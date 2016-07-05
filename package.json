@@ -1,0 +1,28 @@
+{
+  "name": "@mohayonao/launchcontrol-message-parser",
+  "description": "launchcontrol message parser",
+  "version": "0.0.0",
+  "author": "Nao Yonamine <mohayonao@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mohayonao/launchcontrol-message-parser/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "lib"
+  ],
+  "homepage": "https://github.com/mohayonao/launchcontrol-message-parser/",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohayonao/launchcontrol-message-parser.git"
+  },
+  "scripts": {}
+}
