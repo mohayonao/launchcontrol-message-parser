@@ -7,7 +7,11 @@
     "url": "https://github.com/mohayonao/launchcontrol-message-parser/issues"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "eater": "^3.0.0-5",
+    "eslint": "^3.0.0",
+    "npm-run-all": "^2.3.0"
+  },
   "engines": {
     "node": ">= 4.0.0"
   },
@@ -24,5 +28,14 @@
     "type": "git",
     "url": "https://github.com/mohayonao/launchcontrol-message-parser.git"
   },
-  "scripts": {}
+  "scripts": {
+    "clean": "rm -rf npm-debug.log",
+    "eater": "eater test.js",
+    "lint": "eslint *.js",
+    "postversion": "git push && git push --tags && npm run clean",
+    "prepublish": "npm-run-all clean lint eater",
+    "preversion": "npm-run-all clean lint eater",
+    "test": "eater test.js",
+    "travis": "npm-run-all lint eater"
+  }
 }
