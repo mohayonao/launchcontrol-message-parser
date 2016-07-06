@@ -1,7 +1,7 @@
 {
   "name": "@mohayonao/launchcontrol-message-parser",
   "description": "launchcontrol message parser",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "author": "Nao Yonamine <mohayonao@gmail.com>",
   "bugs": {
     "url": "https://github.com/mohayonao/launchcontrol-message-parser/issues"
