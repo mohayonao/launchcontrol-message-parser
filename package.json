@@ -18,11 +18,11 @@
   "files": [
     "package.json",
     "README.md",
-    "lib"
+    "index.js"
   ],
   "homepage": "https://github.com/mohayonao/launchcontrol-message-parser/",
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mohayonao/launchcontrol-message-parser.git"
