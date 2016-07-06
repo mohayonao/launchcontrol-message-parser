@@ -27,8 +27,8 @@ function parse(data) {
     }
   }
 
-  // note on
-  if (messageType === 0x90) {
+  // note on / note off
+  if (messageType === 0x90 || messageType === 0x80) {
     track = PAD.indexOf(d1);
     if (track !== -1) {
       return { col: track, row: 2, val: d2, ch: ch };
